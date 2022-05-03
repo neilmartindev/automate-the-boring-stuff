@@ -7,4 +7,8 @@ while True:
     password = input()
     if password == 'swordfish':
         break
+    elif password !='swordfish':
+        print('Access Denied, you are not Joe')
+        quit()
 print('Access granted.')
+
