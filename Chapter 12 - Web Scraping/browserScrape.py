@@ -1,5 +1,6 @@
 from selenium import webdriver
-browser = webdriver.Chrome(executable_path=r"C:\Users\NeilM\Downloads\chromedriver.exe") 
+browser = webdriver.Chrome(
+    executable_path=r"C:\Users\NeilM\Downloads\chromedriver.exe")
 
 browser.get('https://inventwithpython.com')
 try:

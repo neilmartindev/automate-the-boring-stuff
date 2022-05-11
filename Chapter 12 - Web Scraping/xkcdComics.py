@@ -8,7 +8,7 @@ import bs4
 url = 'https://xkcd.com'               # starting url
 os.makedirs('xkcd', exist_ok=True)    # store comics in ./xkcd
 while not url.endswith('#'):
-    
+
     # TODO: Download the page.
 
     print('Downloading page %s...' % url)
@@ -40,7 +40,7 @@ while not url.endswith('#'):
     imageFile.close()
 
     # TODO: Get the Prev button's url.
-    
+
     prevLink = soup.select('a[rel="prev"]')[0]
     url = 'https://xkcd.com' + prevLink.get('href')
 
