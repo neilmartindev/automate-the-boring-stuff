@@ -6,7 +6,6 @@ import requests
 import json
 APPID = '737e8af49b97d9a1ebb8a397268b317f'
 
-
 # Compute location from command line arguments.
 if len(sys.argv) < 2:
     print('Usage: getOpenWeather.py city_name, 2-letter_country_code')
