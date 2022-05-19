@@ -1,4 +1,5 @@
 import time
+
 # program instructions
 
 print('Press ENTER to begin. Afterward, press Enter to "click" the stopwatch. Press Ctrl+C to quit')
